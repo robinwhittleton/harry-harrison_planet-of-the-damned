@@ -126,3 +126,139 @@ p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
 }
+
+#chapter-3 > div{
+	margin: 1em 0;
+}
+
+#chapter-3 > div span{
+	display: block;
+}
+
+#chapter-3 > div br{
+	display: none;
+}
+
+#chapter-3 > div > *:nth-child(2){
+	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-3 > div > div > *:nth-child(1){
+	float: left;
+	width: 50%;
+}
+
+#chapter-3 > div > div > *:nth-child(1) > span:nth-of-type(2){
+	margin-left: .5em;
+}
+
+#chapter-3 > div > div > *:nth-child(1) > span:nth-of-type(3){
+	margin-left: 1em;
+}
+
+#chapter-3 > div > div > *:nth-child(1) > span:nth-of-type(4){
+	margin-left: 1.5em;
+}
+
+#chapter-3 > div > div > *:nth-child(1) > span:nth-of-type(5){
+	margin-left: 2em;
+}
+
+#chapter-3 > div > div > *:nth-child(2) > span:nth-of-type(2){
+	margin-right: 2em;
+}
+
+#chapter-3 > div > div > *:nth-child(2) > span:nth-of-type(3){
+	margin-right: 1em;
+}
+
+#chapter-3 > div > div > *:nth-child(2) > span:nth-of-type(4),
+#chapter-3 > div > div > *:nth-child(2) > span:nth-of-type(5){
+	margin-right: 2.5em;
+}
+
+#chapter-3 > div > div > *:nth-child(2) > span:nth-of-type(6){
+	margin-right: 1.5em;
+}
+
+#chapter-3 > div > div > *:nth-child(2) > span:nth-of-type(7){
+	margin-right: 1em;
+}
+
+#chapter-3 > div > div > *:nth-child(2){
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+#chapter-3 > div > div > *:nth-child(3){
+	clear: both;
+	font-size: 2em;
+	font-stretch: condensed;
+	text-align: center;
+	text-indent: 0;
+	text-transform: uppercase;
+}
+
+@supports(display: flex){
+	#chapter-3 > div > div{
+		display: flex;
+	}
+
+	#chapter-3 > div > div > *:nth-child(2){
+		order: 2;
+	}
+}
+
+#chapter-3 > div > *:nth-child(4){
+	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-3 > div > *:nth-child(4) > span:nth-of-type(1){
+	text-indent: -7.5em;
+}
+
+#chapter-3 > div > *:nth-child(4) > span:nth-of-type(2){
+	text-indent: -4em;
+}
+
+#chapter-3 > div > *:nth-child(4) > span:nth-of-type(4){
+	text-indent: 4.5em;
+}
+
+#chapter-3 > div > *:nth-child(4) > span:nth-of-type(5){
+	text-indent: 8em;
+}
+
+#chapter-3 > div > *:nth-child(4) > span:nth-of-type(6){
+	text-indent: 10em;
+}
+
+#chapter-3 > div > *:nth-child(4) > strong{
+	font-size: 2em;
+	font-stretch: condensed;
+	text-transform: uppercase;
+}
+
+#chapter-3 > div > *:nth-child(5){
+	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-3 > div > *:nth-child(5) > strong:nth-of-type(2){
+	display: block;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+#chapter-3 > div > *:nth-child(5) > span:nth-of-type(2){
+	display: block;
+	text-align: right;
+}
+
+#chapter-3 > div > *:nth-child(6){
+	text-align: center;
+	text-indent: 0;
+}
